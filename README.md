@@ -46,6 +46,7 @@ End Sub
 Public Class CustomSelectionController Inherits Syncfusion.WinForms.DataGrid.Interactivity.RowSelectionController
 
     Private DataGrid As SfDataGrid
+
     Public Sub New(ByVal sfDataGrid As SfDataGrid)
         MyBase.New(sfDataGrid)
         Me.DataGrid = sfDataGrid
